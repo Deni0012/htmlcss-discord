@@ -240,15 +240,25 @@ footer {
 }
 
 
+.registra-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
 .registrazione-btn {
+    padding: 10px 20px;
     background-color: #7288da;
     color: #ffffff;
-    display: flex;
-    margin-left: auto;
     border: none;
-    padding: 10px 20px;
-    margin: 10px;
     cursor: pointer;
     border-radius: 30px;
     font-size: 14px;
+}
+
+.registrazione-btn:hover {
+    background-color: #4752c4;
 }
