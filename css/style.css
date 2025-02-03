@@ -90,3 +90,53 @@ nav ul {
     border-radius: 30px;
 }
 
+/* Main */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.gray {
+    background-color: #F0F0F0;
+}
+ 
+.text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+ 
+p {
+    margin-top: 30px;
+}
+
+.section-gray text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-gray h2 {
+    margin-bottom: 20px;
+}
+
+.section-gray img {
+    width: 100%;
+    max-width: 2300px;
+    height: 900px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
