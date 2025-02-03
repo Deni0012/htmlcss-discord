@@ -4,5 +4,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+   background-color: #f6f6f6;
+}
+
+/* Header */
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: #ffffff;
+}
+
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
